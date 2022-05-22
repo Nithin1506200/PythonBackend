@@ -10,10 +10,10 @@ Django + react app
 2. python -m virtualenv env
    or
    virtualenv env
-
 3. env\scripts\activate # activate virtual environment
 4. pip install django
 5. django-admin startproject mynotes
 6. cd mynotes
 7. python manage.py runserver
 8. python manage.py startapp api
+9. python manage.py migrate
